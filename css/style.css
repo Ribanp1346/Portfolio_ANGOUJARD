@@ -12,6 +12,9 @@ h1,h2,h3,figure{
     list-style: none;
     font-weight: 100;
 }
+*{
+    box-sizing: border-box;
+}
 a{
     text-decoration: none;
     color: #000;
