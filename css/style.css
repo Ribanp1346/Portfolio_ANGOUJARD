@@ -14,7 +14,7 @@ h1,h2,h3,figure,p,ul{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    font-weight: 100;
+    font-weight: bold;
 }
 *{
     box-sizing: border-box;
@@ -26,10 +26,10 @@ a{
 
 /* theme */
 :root{
-    --bg-header-primary: #55ACEE;
-    --color-header-text: #f3dc0a;
+    --bg-header-primary: #dbe3ee;
+    --color-header-text: #d2d69b;
     --color-h2-text: #221F1F;
-    --color-footer-text: #E1E8ED;
+    --color-footer-text: #efe3d3;
 }
 header, main, footer{
     margin:0 auto 2rem;
@@ -37,6 +37,8 @@ header, main, footer{
 main{
     max-width: 85rem;
     margin: 0 auto;
+    border: 1px solid;
+    border-radius: 30px;
 }
 header{
     padding: 1rem;
@@ -54,7 +56,7 @@ header h1{
     color: var(--color-header-text);
 }
 main{
-    background: rgba(0, 225, 255, 0.75); /* Black background with 0.5 opacity */
+    background: rgba(249, 202, 36,0.74); /* Black background with 0.5 opacity */
 }
 main nav h2, main section h2{
     color: var(--color-h2-text);
@@ -71,15 +73,18 @@ main nav ul li{
     margin-right: -195px;*/ 
 }
 main nav{
-    background-color: var(--color-footer-text);
+    background-color: #f2d056;
 }
 .grid ul{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     margin-top: 10px;
 }
-p{
+main p{
     line-height: 5rem;
+    border: 6px solid rgb(117, 184, 184);
+  background-color: #f2d056;
+  border-radius:5px ;
 }
 footer{
     line-height: normal;
