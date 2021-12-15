@@ -28,6 +28,7 @@ a{
 :root{
     --bg-header-primary: #55ACEE;
     --color-header-text: #f3dc0a;
+    --color-h2-text: #221F1F;
     --color-footer-text: #E1E8ED;
 }
 header, main, footer{
@@ -56,7 +57,7 @@ main{
     background: rgba(0, 225, 255, 0.75); /* Black background with 0.5 opacity */
 }
 main nav h2, main section h2{
-    color: var(--color-header-text);
+    color: var(--color-h2-text);
     background-color: var(--bg-header-primary);
     text-transform: capitalize;
     font-size: xx-large;
@@ -64,9 +65,8 @@ main nav h2, main section h2{
 main nav .focus, main section .focus{
     transition: all 500ms ease-in-out;
 }
-main nav ul{
+main nav ul li{
     padding: 1rem;
-    text-align: center;
     /* margin-top: -20px;
     margin-right: -195px;*/ 
 }
@@ -79,7 +79,6 @@ main nav{
     margin-top: 10px;
 }
 p{
-    text-align: center;
     line-height: 5rem;
 }
 footer{
@@ -109,6 +108,7 @@ footer p {
     }
     section p {
         text-align: justify;
+        padding: auto;
     }
     footer{
         min-height: 20vh; /* hauteur 1/20 d'écran */
