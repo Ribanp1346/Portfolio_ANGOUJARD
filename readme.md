@@ -6,7 +6,7 @@ Ce portfolio est un exemple de modèle de structuration : html css.
 
 [Afficher le portfolio](https://ribanp1346.github.io/Portfolio_ANGOUJARD/ "Voir le portfolio")
 
-![screenshot](./asset/photo_site.png "porfoilio")
+![screenshot](./asset/photo_site.png "portfolio")
 
 * Navigation
 * Contenu
