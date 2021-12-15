@@ -27,7 +27,7 @@ a{
 /* theme */
 :root{
     --bg-header-primary: #dbe3ee;
-    --color-header-text: #d2d69b;
+    --color-header-text: rgb(0, 0, 0);
     --color-h2-text: #221F1F;
     --color-footer-text: #efe3d3;
 }
@@ -56,7 +56,7 @@ header h1{
     color: var(--color-header-text);
 }
 main{
-    background: rgba(249, 202, 36,0.74); /* Black background with 0.5 opacity */
+  background-color: #f5e19c;
 }
 main nav h2, main section h2{
     color: var(--color-h2-text);
@@ -73,7 +73,7 @@ main nav ul li{
     margin-right: -195px;*/ 
 }
 main nav{
-    background-color: #f2d056;
+    background-color: #f5e19c;
 }
 .grid ul{
     display: grid;
@@ -82,8 +82,7 @@ main nav{
 }
 main p{
     line-height: 5rem;
-    border: 6px solid rgb(117, 184, 184);
-  background-color: #f2d056;
+  background-color: #f5e19c;
   border-radius:5px ;
 }
 footer{
