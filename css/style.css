@@ -119,3 +119,11 @@ footer p {
         align-items: center;
     }
 }	
+@media screen and(orientation:landscape) {
+    header h1{
+        font-size: xx-large;
+    }
+    nav ul li ,p{
+        text-align: center;
+    }
+}
