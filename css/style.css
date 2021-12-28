@@ -82,8 +82,8 @@ main nav{
 }
 main p{
     line-height: 5rem;
-  background-color: #f5e19c;
-  border-radius:5px ;
+    background-color: #f5e19c;
+    border-radius:5px ;
 }
 footer{
     line-height: normal;
@@ -93,6 +93,9 @@ footer p {
     margin: 20px 0;
     text-align: center;
     text-transform: capitalize;
+}
+footer p a{
+    color: #fff;
 }
 /* responsive*/
 @media screen and (max-width:70.0rem){
