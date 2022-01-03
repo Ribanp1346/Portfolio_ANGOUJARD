@@ -113,8 +113,14 @@ footer p a{
         font-size: large;
     }
     ul:nth-child(2){
+        background-color: #f5e19c;
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        margin-top: 10px;
+    }
+    ul:nth-child(1){
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
         margin-top: 10px;
     }
     section p {
