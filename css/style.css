@@ -10,7 +10,7 @@ body{
     background-image: url(../asset/calendrier12h3-scaled.jpg);
     
 }
-h1,h2,h3,figure,p,ul{
+h1,h2,h3,figure,p,ul,li{
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -34,11 +34,9 @@ a{
 header, main, footer{
     margin:0 auto 2rem;
 }
-main{
-    max-width: 85rem;
+section{
+    max-width: 90rem;
     margin: 0 auto;
-    border: 1px solid;
-    border-radius: 30px;
 }
 header{
     padding: 1rem;
@@ -55,30 +53,36 @@ header h1{
     font-family: "Lobster";
     color: var(--color-header-text);
 }
-main{
-  background-color: #f5e19c;
-}
 main nav h2, main section h2{
     color: var(--color-h2-text);
     background-color: var(--bg-header-primary);
     text-transform: capitalize;
-    font-size: xx-large;
+    font-size: x-large;
+    text-align: center;
 }
 main nav .focus, main section .focus{
     transition: all 500ms ease-in-out;
 }
-main nav ul li{
+nav{
+    text-align: center;
+    line-height: 1rem;
+}
+nav ul li{
+    display: inline-block;
     padding: 1rem;
-    /* margin-top: -20px;
-    margin-right: -195px;*/ 
+    font-size: 2rem;
+    font-weight: bold;
 }
 main nav{
-    background-color: #f5e19c;
+    position: sticky;
 }
 .grid ul{
     display: grid;
     grid-template-columns: repeat(7,1fr);
     margin-top: 10px;
+}
+ul li{
+    background-color: #f5e19c;
 }
 main p{
     line-height: 5rem;
