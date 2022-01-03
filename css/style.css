@@ -30,6 +30,7 @@ a{
     --color-header-text: rgb(0, 0, 0);
     --color-h2-text: #221F1F;
     --color-footer-text: #efe3d3;
+    --color-section: rgba(245, 225, 156, 0.5);
 }
 header, main, footer{
     margin:0 auto 2rem;
@@ -82,11 +83,11 @@ main nav{
     margin-top: 10px;
 }
 ul li{
-    background-color: #f5e19c;
+    background-color: var(--color-section);
 }
 main p{
     line-height: 5rem;
-    background-color: #f5e19c;
+    background-color: var(--color-section);
     border-radius:5px ;
 }
 footer{
@@ -113,7 +114,7 @@ footer p a{
         font-size: large;
     }
     ul:nth-child(2){
-        background-color: #f5e19c;
+        background-color: var(--color-section);
         display: grid;
         grid-template-columns: repeat(3,1fr);
         margin-top: 10px;
